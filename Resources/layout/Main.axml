@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:minWidth="25px"
+    android:minHeight="25px"
+	android:fillViewport="true">
+    <TextView
+     android:text="Current Date:"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/dateView1"/>
+	<TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/txtDateOutput" />
+	<TextView
+     android:text="Please fill in the following headers---
+NOTE: Any invalid inputs will be converted to 0"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/txtInvalidPrompt" />
+    <TextView
+     android:text="Enter Length:"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/txtLengthInPrompt" />
+    <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/etLengthIn" />
+    <TextView
+     android:text="Enter Width:"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/txtWidthInPrompt" />
+    <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/etWidthIn" />
+    <Button
+     android:text="Calculate Rectangle Area"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/btnRecArea" />    
+    <TextView
+     android:text="Result:"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/txtRecAreaOutPrompt" />
+    <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/txtRecAreaOut" />
+    <TextView
+     android:text="Add height to find cube volume:"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/txtHeightPrompt" />
+    <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/etHeightIn" />
+    <Button
+     android:text="Calculate Cube Area"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/btnCubeArea" />
+    <TextView
+     android:text="Result:"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/txtCubeOutPrompt" />
+    <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/txtCubeOut" />
+</LinearLayout>
+	</ScrollView>
